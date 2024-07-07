@@ -9,11 +9,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio</title>
       </head>
-      <body>
+      <body id="home">
         <div class="header">
             <a href="#" class="logo">Portfolio</a>
 
-          <input type="checkbox" id="check" />
+          <input type="checkbox" id="check"/>
           <label for="check" class="icons">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" id="menu-icon"/></svg>
           </label>
